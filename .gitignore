@@ -1,0 +1,13 @@
+# Build outputs (platform/Python-version specific, must be recompiled)
+*.so
+*.pyd
+build/
+dist/
+
+# setuptools / pip install -e . artifacts
+*.egg-info/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo

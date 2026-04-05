@@ -1,0 +1,2 @@
+用FGOVD 1 attribute数据（或者混合上lvis数据）lora微调
+FGOVD训练时将细粒度vlm score和cls score集成后用于计算loss
