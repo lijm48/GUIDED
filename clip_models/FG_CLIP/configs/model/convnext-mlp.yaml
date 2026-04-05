@@ -1,0 +1,6 @@
+mlp_dims: []
+no_act: True
+keep_embeds: [True, False] # position 0: Visual Embedding, position 1: Textual Embedding
+initial_weights: 'ckpt_convnext_large_d_320/triplet_20epoch_convnext-mlp.pth'
+cosine: True
+embedding_dim: 768
