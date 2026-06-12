@@ -1,0 +1,61 @@
+# =============================================================================
+# GUIDED Project .gitignore
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# --- Model weights & checkpoints ---
+*.pt
+*.pth
+*.pkl
+*.bin
+*.ckpt
+*.safetensors
+
+# --- Data files ---
+*.npy
+*.pdf
+*.h5
+*.hdf5
+
+# --- Data directories ---
+data/
+dataset/
+output/
+pretrain_models/
+pretrained_models/
+Vis_test/
+
+# --- Jupyter ---
+*.ipynb
+.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Experiment logs ---
+wandb/
+runs/
+*.log
+log.txt
+
+# --- Environment ---
+.env

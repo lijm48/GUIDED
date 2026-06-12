@@ -1,0 +1,19 @@
+use a fine grained vocaborary to generate five simple vocaborary.
+You should return a sentence directly, strictly following the following format:
+vocab_1 | vocab_2 | vocab_3 | vocab_4 | vocab_5
+
+example:
+
+1.
+input: 
+A black belt with a metal loop, a metal buckle and a leather strap.
+output:
+A belt | A black belt | A black belt with a loop | A black belt with a metal loop | A black belt with a metal loop and a metal buckle
+
+2.
+input:
+A bicycle made of metal with black and white wheels, black handlebar, black and red head tube, red top tube, red down tube and black fork.
+output:
+A bicycle | A bicycle made of metal | A bicycle made of metal with wheels | A bicycle made of metal with black and white wheels | A bicycle made of metal with black and white wheels and black handlebar
+
+now input:
