@@ -4,7 +4,6 @@
 
 Official implementation of **GUIDED**, a decomposition framework for Fine-Grained Open-Vocabulary Object Detection (FG-OVD).
 
-![GUIDED Framework](https://img.shields.io/badge/Framework-Figure-blue)
 
 
 ## 📋 Table of Contents
@@ -124,6 +123,10 @@ ${GUIDED_DATASET_PATH}/
 │           └── 1_attributes_with_subject_with_multi_vocab_single.json  # used for Stage 2 fine-tuning
 ```
 
+### Auxiliary Metadata Files
+
+GUIDED also requires the [auxiliary metadata package](https://drive.google.com/drive/folders/16QzgT1lIpRmwTTnFsBA3D8ZloXLpG9s2?usp=sharing) under the repository-level `dataset/` directory. These files contain LVIS text-query embeddings, LVIS atomic-phrase embeddings for Attribute Attention, and cluster labels used by the federated loss. They are not the raw LVIS/COCO/FG-OVD datasets and should be placed in the project root.
+
 
 
 ## 🔑 Pretrained Weights
@@ -191,10 +194,6 @@ python lami_dino_mix/train.py \
 # Default: experiment name `multi_diff_attr`, 5 hard negatives for 1/2/3-attribute
 # and shuffle tracks, and 2 hard negatives for color/material/pattern/transparency tracks.
 bash scripts/inference_and_eval.sh
-
-# Optional overrides:
-# bash scripts/inference_and_eval.sh [EXPERIMENT_NAME] [MULTI_ATTR_N_HARDNEGATIVES] [SINGLE_ATTR_N_HARDNEGATIVES]
-bash scripts/inference_and_eval.sh my_experiment 5 2
 ```
 
 This runs inference on all FG-OVD tracks (1/2/3 attributes, color, material, pattern, transparency, shuffle_negatives) using the generated files under `FG_OVD/benchmarks/with_subject_and_atomic_phrases/`, and then evaluates mAP against the original FG-OVD ground-truth files.
