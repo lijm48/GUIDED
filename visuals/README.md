@@ -100,7 +100,7 @@ data/
 
 ### FG-OVD
 
-Download the FG-OVD benchmark from the [official repository](https://github.com/therosFG/FG-OVD). Then download our generated subject-and-atomic-phrase benchmark and training files from [this link](https://drive.google.com/drive/folders/16QzgT1lIpRmwTTnFsBA3D8ZloXLpG9s2?usp=sharing).
+Download the FG-OVD benchmark from the [official repository](https://github.com/therosFG/FG-OVD). Then download our generated subject-and-atomic-phrase benchmark and training files from [this link](TODO).
 
 Place the generated `with_subject_and_atomic_phrases/` benchmark directory under `FG_OVD/benchmarks/`, and place the generated training directory under `FG_OVD/training_sets/with_subject_and_atomic_phrases/`.
 
