@@ -4,8 +4,6 @@
 
 Official implementation of **GUIDED**, a decomposition framework for Fine-Grained Open-Vocabulary Object Detection (FG-OVD).
 
-# > **GUIDED** addresses the semantic entanglement between subjects and attributes in fine-grained prompts by separating object localization and fine-grained recognition into distinct pathways: **Subject Identification**, **Attribute Embedding Fusion**, and **Attribute Discrimination**.
-
 ![GUIDED Framework](https://img.shields.io/badge/Framework-Figure-blue)
 
 
