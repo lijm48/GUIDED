@@ -137,7 +137,7 @@ Download the following pretrained weights:
 |------|-------------|-------------|----------|
 | `timm_clip_convnext_large_trans.pth` | `pretrain_models/` | OpenCLIP ConvNeXt-Large checkpoint | [Link](https://huggingface.co/laion/CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft-soup) |
 | `clip_convnext_large_head.pth` | `pretrain_models/` | CLIP head weights | See LaMI-DETR |
-| `fg-ovd_convnext-mlp_norm_emb.pth` | `clip_models/FG_CLIP/ckpt_convnext_norm_emb/` | [FG-CLIP](https://github.com/lorebianchi98/FG-CLIP)  ConvNeXt text MLP weights used during FG-OVD inference | [this link](https://github.com/lorebianchi98/FG-CLIP) |
+| `fg-ovd_convnext-mlp_norm_emb.pth` | `clip_models/FG_CLIP/ckpt_convnext_norm_emb/` | [FG-CLIP](https://github.com/lorebianchi98/FG-CLIP)  ConvNeXt text MLP weights used during FG-OVD inference | [this link](https://drive.google.com/drive/folders/16QzgT1lIpRmwTTnFsBA3D8ZloXLpG9s2?usp=sharing) |
 
 `fg-ovd_convnext-mlp_norm_emb.pth` is our reproduced FG-CLIP result with the training code under `clip_models/FG_CLIP/`.
 
